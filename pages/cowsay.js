@@ -1,7 +1,14 @@
 import cowsay from 'cowsay-browser'
 
+import Header from '../components/Header'
+
 function CowsayHi () {
-  return <pre>{cowsay.say({ text: 'hi there!' })}</pre>
+  return (
+    <div>
+      <Header />
+      <pre>{cowsay.say({ text: 'hi there!' })}</pre>
+    </div>
+  )
 }
 
 export default CowsayHi

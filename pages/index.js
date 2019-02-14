@@ -1,6 +1,8 @@
 import css from './styles.scss'
 import Head from 'next/head'
 
+import Header from '../components/Header'
+
 function Home () {
   return (
     <div>
@@ -8,6 +10,7 @@ function Home () {
         <title>My page title</title>
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
+      <Header />
       <div className={css.testSass}>Welcome to next.js!</div>
       <div>
         <img
