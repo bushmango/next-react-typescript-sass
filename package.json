@@ -1,0 +1,27 @@
+{
+  "name": "next-react-typescript-sass",
+  "version": "1.0.0",
+  "description": "next-react-typescript-sass",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^8.0.1",
+    "react-dom": "^16.8.2",
+    "react": "^16.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bushmango/next-react-typescript-sass.git"
+  },
+  "author": "steve bushman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bushmango/next-react-typescript-sass/issues"
+  },
+  "homepage": "https://github.com/bushmango/next-react-typescript-sass#readme"
+}
