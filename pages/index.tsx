@@ -1,4 +1,4 @@
-import css from './styles.scss'
+import * as css from './styles.scss'
 import Head from 'next/head'
 
 import Header from '../components/Header'
