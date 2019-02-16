@@ -2,7 +2,7 @@ import cowsay from 'cowsay-browser'
 
 import Header from '../components/Header'
 
-function CowsayHi () {
+function CowsayHi() {
   return (
     <div>
       <Header />

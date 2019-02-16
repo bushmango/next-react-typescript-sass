@@ -1,11 +1,11 @@
-import * as React from "react";
+import * as React from 'react'
 
-import Header from "../components/Header";
+import Header from '../components/Header'
 
 class Agent extends React.Component<{ userAgent: string }> {
   static async getInitialProps({ req }) {
-    const userAgent = req ? req.headers["user-agent"] : navigator.userAgent;
-    return { userAgent };
+    const userAgent = req ? req.headers['user-agent'] : navigator.userAgent
+    return { userAgent }
   }
 
   render() {
@@ -14,8 +14,8 @@ class Agent extends React.Component<{ userAgent: string }> {
         <Header />
         Hello World {this.props.userAgent}
       </div>
-    );
+    )
   }
 }
 
-export default Agent;
+export default Agent

@@ -1,8 +1,8 @@
 // import * as css from "./styles.scss";
-const css = require("./styles.scss");
-import Head from "next/head";
+const css = require('./styles.scss')
+import Head from 'next/head'
 
-import Header from "../components/Header";
+import Header from '../components/Header'
 
 function Home() {
   return (
@@ -16,11 +16,11 @@ function Home() {
       <div>
         <img
           src="/static/images/caffeine-coffee-cup-374780.jpg"
-          style={{ width: "300px", height: "auto" }}
+          style={{ width: '300px', height: 'auto' }}
         />
       </div>
     </div>
-  );
+  )
 }
 
-export default Home;
+export default Home

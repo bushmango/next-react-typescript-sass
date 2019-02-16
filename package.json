@@ -5,6 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "@types/node": "^11.9.4",
+    "@types/react": "^16.8.3",
+    "@types/react-dom": "^16.8.2",
     "@zeit/next-sass": "^1.0.1",
     "@zeit/next-typescript": "^1.1.1",
     "cowsay-browser": "^1.1.8",
